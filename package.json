@@ -1,22 +1,57 @@
 {
-  "name": "typedjson",
-  "version": "0.1.5",
-  "description": "Typed JSON parsing and serializing for TypeScript that preserves type information, using decorators. Parse JSON into actual class instances.",
-  "main": "js/index.js",
+  "name": "ts-json",
+  "version": "0.0.1",
+  "description": "JSON parsing and serializing for TypeScript that preserves type information, using decorators. Parse JSON into actual class instances. Credentials to Jon White and TypedJSON.",
+  "main": "./git dist/index.js",
   "typescript": {
-    "definition": "./js/index.d.ts"
+    "definition": "./dist/index.d.ts"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JohnWhiteTB/TypedJSON.git"
+    "url": "git+https://github.com/ottorun/TypedJSON.git"
   },
-  "author": "John White",
+  "author": "John White/Ottorun",
+  "contributors": [
+    {
+      "name": "John White"
+    },
+    {
+      "name": "Ottorun"
+    }
+    ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JohnWhiteTB/TypedJSON/issues"
+    "url": "https://github.com/ottorun/TypedJSON/issues"
   },
-  "homepage": "https://github.com/JohnWhiteTB/TypedJSON"
+  "homepage": "https://github.com/ottorun/TypedJSON",
+
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-bump": "^0.8.0",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-karma": "^0.12.1",
+    "grunt-run": "^0.6.0",
+    "grunt-ts": "^5.3.2",
+    "grunt-tslint": "^3.0.3",
+    "jshint": "^2.9.2",
+    "jasmine-reporters": "^2.1.1",
+    "karma": "^0.13.21",
+    "karma-coverage": "^0.5.3",
+    "karma-firefox-launcher": "^0.1.7",
+    "karma-jasmine": "^0.3.6",
+    "karma-jasmine-html-reporter": "^0.2.0",
+    "karma-junit-reporter": "^0.3.6",
+    "karma-mocha-reporter": "^1.1.1",
+    "karma-requirejs": "^0.2.2",
+    "load-grunt-tasks": "^3.5.0",
+    "reflect-metadata": "^0.1.3",
+    "remap-istanbul": "^0.5.1",
+    "tslint": "^3.5.0",
+    "typescript": "^1.8.9"
+  }
 }
